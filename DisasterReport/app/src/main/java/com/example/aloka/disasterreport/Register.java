@@ -4,27 +4,33 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
+
+//import com.parse.Parse;
+//import com.parse.ParseObject;
 
 
-public class MainActivity extends ActionBarActivity {
-
-    EditText editTextUsername;
+public class Register extends ActionBarActivity {
+   /* EditText editTextUsername;
     EditText editTextPassword;
+    EditText editTextEmail;
+    SharedPreferences sharedPreferences;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.register);
     }
 
-
+/*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.menu_register, menu);
         return true;
     }
 
@@ -43,9 +49,21 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onRegisterButtonClick(View view){
-        Intent intent = new Intent(this,Register.class);
-        //SharedPreferences.Editor editor = sharedPreferences2.edit();
-        startActivity(intent);
-    }
+    public void onRegisterButtonClick(View view) {
+        Parse.initialize(this, "KF28QeW38hEu8k19WgREEpo7l0ZAde4gsw70eq5Z", "UenvBIVtMlarsDHE1aWCK9pKHgZXPerJCMtJ8XHh");
+
+        String username = editTextUsername.getText().toString();
+        String password = editTextPassword.getText().toString();
+        String email = editTextEmail.getText().toString();
+
+        ParseObject testObject = new ParseObject("User");
+        testObject.put("Username", username);
+        testObject.put("Password", password);
+        testObject.put("Email", email);
+        testObject.saveInBackground();
+
+        Log.d("Register", "Username :" + username + " , Password :" + password+"Email: "+email);
+
+
+    }*/
 }
