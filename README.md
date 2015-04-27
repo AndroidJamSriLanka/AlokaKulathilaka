@@ -12,5 +12,7 @@ I have currently implemented some of the interfaces and still work on them.
 Home 
 ![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Home.png)
 
+
+
 Register
-![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Register.PNG)
+![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Register.png)
