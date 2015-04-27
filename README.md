@@ -9,5 +9,8 @@ http://www.gdacs.org/
 
 I have currently implemented some of the interfaces and still work on them.
 
+Home 
+![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Home.png)
 
-![Sunscreens](https://github.com/AndroidJamSriLanka/BeAlert/blob/master/GUI%20folder/Home.png"First sreen/Home screen the user will get when open the app")
+Register
+![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Register.PNG)
