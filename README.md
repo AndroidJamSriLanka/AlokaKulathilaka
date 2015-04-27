@@ -10,4 +10,4 @@ http://www.gdacs.org/
 I have currently implemented some of the interfaces and still work on them.
 
 ####Screenshots
-(https://github.com/AndroidJamSriLanka/BeAlert/blob/master/GUI%20folder/Home.png"First sreen/Home screen the user will get when open the app")
+!(https://github.com/AndroidJamSriLanka/BeAlert/blob/master/GUI%20folder/Home.png"First sreen/Home screen the user will get when open the app")
