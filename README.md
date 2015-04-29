@@ -16,5 +16,6 @@ Home
 Register 
 ![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Register.PNG)
 
-
+Map
+![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Map.PNG)
 
