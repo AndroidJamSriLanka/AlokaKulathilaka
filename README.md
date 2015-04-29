@@ -9,10 +9,12 @@ http://www.gdacs.org/
 
 I have currently implemented some of the interfaces and still work on them.
 
-Home 
+Home
+![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/home%201.png)
+
+
+Register 
 ![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/Register.PNG)
 
 
 
-Register
-![ScreenShot](https://github.com/AndroidJamSriLanka/Disaster-Report/blob/master/GUI%20folder/home%201.png)
